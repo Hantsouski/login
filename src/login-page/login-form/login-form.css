@@ -41,11 +41,11 @@
 @media (prefers-color-scheme: dark) {
   .submit-button {
     background-color: var(--accent-alt);
+    color: black;
   }
 
   .submit-button:hover {
     background-color: var(--tertiary);
-    color: black;
   }
 
   .submit-button:focus-visible {
