@@ -1,0 +1,54 @@
+.form-field {
+  margin-bottom: 1rem;
+}
+
+.form-field > label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.form-field:last-of-type {
+  margin-bottom: 2.2rem;
+}
+
+.form-hint {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+  line-height: 1.1;
+}
+
+.form-error {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: var(--accent-alt);
+  filter: saturate(1.5);
+}
+
+.submit-button {
+  width: 100%;
+  min-height: 3rem;
+  background-color: var(--accent);
+}
+
+.submit-button:hover {
+  background-color: var(--primary);
+  color: var(--light);
+}
+
+@media (prefers-color-scheme: dark) {
+  .submit-button {
+    background-color: var(--accent-alt);
+  }
+
+  .submit-button:hover {
+    background-color: var(--tertiary);
+    color: black;
+  }
+
+  .submit-button:focus-visible {
+    outline-color: var(--accent);
+  }
+}
