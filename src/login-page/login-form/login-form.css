@@ -31,6 +31,7 @@
   width: 100%;
   min-height: 3rem;
   background-color: var(--accent);
+  color: black;
 }
 
 .submit-button:hover {
@@ -41,7 +42,6 @@
 @media (prefers-color-scheme: dark) {
   .submit-button {
     background-color: var(--accent-alt);
-    color: black;
   }
 
   .submit-button:hover {
