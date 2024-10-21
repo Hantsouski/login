@@ -37,7 +37,7 @@ export const PasswordRevealer = forwardRef(
           aria-label={
             showPassword
               ? "Hide your password."
-              : "Show password as plain text. Warning: this will display your password on the screen."
+              : "Show password as plain text on the screen."
           }
         >
           {showPassword ? "Hide" : "Show"}
